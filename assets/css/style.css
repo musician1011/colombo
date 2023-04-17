@@ -91,7 +91,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(0, 0, 0, 0.47);
     box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.75);
 }
 
@@ -165,7 +165,7 @@ h6 {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 15px;
-    color: #151515;
+    color: whitesmoke;
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -182,7 +182,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #c83911;
+    color: #fa4614;
 }
 
 .navbar .dropdown ul {
@@ -451,12 +451,8 @@ h6 {
 section {
     padding: 60px 0;
     overflow: hidden;
+    background-color: rgba(53, 53, 53, 0.343);
 }
-
-.section-bg {
-    background-color: whitesmoke;
-}
-
 .section-title {
     text-align: center;
     padding-bottom: 40px;
@@ -483,7 +479,7 @@ section {
 
 .about .image {
     padding: 10px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.411);
 }
 
 .about .content h3 {
